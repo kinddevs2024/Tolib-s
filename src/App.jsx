@@ -17,6 +17,7 @@ function App() {
     <Loyaout >
       <Routes >
         <Route  path='/' element={<Home />}/>
+        <Route path='/about' element={ <Aboute/>}/>
         <Route path='*' element={ <Eror/>}/>
       </Routes>
     </Loyaout>

@@ -124,8 +124,8 @@ export function Header() {
           href="#"
           className="mr-4 cursor-pointer py-1.5 font-medium"
         >
-          <NavLink to={"/"} >
-            Material Tailwind
+          <NavLink className="flex justify-center items-center w-full" to={"/"} >
+          <img className="max-w-[30px]" src="src/imgs/logo.png" alt="logo" />
           </NavLink>
         </Typography>
         <div className="hidden lg:block">{navList}</div>
